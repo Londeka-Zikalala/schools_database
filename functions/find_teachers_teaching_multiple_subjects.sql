@@ -27,6 +27,5 @@ BEGIN
 END;
 $$
 LANGUAGE plpgsql;
-SELECT * FROM find_teachers_teaching_multiple_subjects(1); -- Will return all the teachers
-SELECT * FROM find_teachers_teaching_multiple_subjects(3); -- Will return Thabo Kos
+
 

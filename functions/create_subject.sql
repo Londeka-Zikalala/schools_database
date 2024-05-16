@@ -27,5 +27,3 @@ end;
 $$
 Language plpgsql;
 
--- Run function
-select * from create_subject();

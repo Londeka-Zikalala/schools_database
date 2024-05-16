@@ -1,20 +1,21 @@
-create or replace function find_subjects ()
-    returns table (
-        id int,
-        name varchar
-    ) as
-$$
-begin
 
-return query
-    select 
-        "subject".id, 
-        "subject".name
-    from subject;
+-- DROPPED FUNCTION
 
-end;
-$$
-Language plpgsql;
+-- create or replace function find_subjects ()
+--     returns table (
+--         id int,
+--         name varchar
+--     ) as
+-- $$
+-- begin
 
--- Run function
-select * from find_subjects();
+-- return query
+--     select 
+--         "subject".id, 
+--         "subject".name
+--     from subject;
+
+-- end;
+-- $$
+-- Language plpgsql;
+

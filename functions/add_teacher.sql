@@ -18,6 +18,3 @@ END;
 $$
 LANGUAGE plpgsql;
 
--- Run 
-SELECT add_teacher('Asher', 'Gamedze', 'asher@gamedze.com'); -- will return true
-SELECT add_teacher('Nduduzo', 'Makhathin', 'nduduzo@makhathini.com'); -- will return false

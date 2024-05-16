@@ -28,4 +28,3 @@ END;
 $$
 LANGUAGE plpgsql;
 
-SELECT * FROM find_teachers_for_subject('Mathematics');

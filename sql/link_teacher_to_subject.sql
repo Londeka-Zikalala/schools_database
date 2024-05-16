@@ -5,8 +5,7 @@ SELECT id, name FROM subject;
 
 -- Get the id's for the teachers
 SELECT id, first_name, last_name FROM teacher;
-
-                                        -- Link the teachers
+-- Link the teachers
 
 -- Lindani Pani teaches Mathematics and Geography
 insert into subject_teacher (subject_id, teacher_id) values (1, 1), (2, 1);
@@ -26,6 +25,6 @@ insert into subject_teacher (subject_id, teacher_id) values (5, 5), (7, 5);
 -- Sandzile Nkosi teaches Accounting and Mathematics
 insert into subject_teacher (subject_id, teacher_id) values (6, 6), (1, 6);
 
--- Thabo Kos teaches Economics and Life Sciences
-insert into subject_teacher (subject_id, teacher_id) values (7, 7), (3, 7);
+-- Thabo Kos teaches Economics, Life Sciences, Maths and Accounting
+insert into subject_teacher (subject_id, teacher_id) values (7, 7), (3, 7), (1, 7), (6, 7);
 
